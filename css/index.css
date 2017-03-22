@@ -1,0 +1,63 @@
+html,body{
+	height:100%;
+}
+body{
+	overflow: hidden;
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+.divide-20{
+	height: 20px;
+	width: 100%;
+}
+
+#header{
+	height: 50px;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+	background-image: -webkit-linear-gradient( to top, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%); 
+	background-image: linear-gradient( to top, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%); 
+
+}
+#header > div{	
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+
+#nav{
+	height:50px;
+	position:relative;
+}
+#nav ul{
+	height:50px;
+	position:relative;
+	z-index:1;
+	margin: 0 auto;
+}
+#nav ul li{
+	float: left;
+	font-size: 14px;
+	line-height: 50px;
+	padding: 0 50px;
+}
+#nav li a{
+	color: rgba(255,255,255,0.8);
+	text-shadow: 4px 3px 10px #000;
+	text-decoration: none;
+	-webkit-transition: color .2s;
+       -moz-transition: color .2s;
+        -ms-transition: color .2s;
+         -o-transition: color .2s;
+            transition: color .2s;
+}
+#nav li.active a{
+	color:#fff;
+}
+
+
+

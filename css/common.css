@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,
+input,
+button{
+	font-family: 'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+}
+li{
+	list-style: none;
+}

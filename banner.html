@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>轮播图</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/banner.css"/>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="slider">
+			<ul class="slider-img">
+				<li class="active">
+					<a href="javascript: void(0);">
+						<img src="http://consumer.huawei.com/cn/assets/cbg-home/images/banner/P10.jpg" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+						<img src="http://consumer.huawei.com/cn/assets/cbg-home/images/banner/banner_mate9new.jpg" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+						<img src="http://consumer.huawei.com/cn/assets/cbg-home/images/banner/318.jpg" alt="" />
+					</a>
+				</li>
+			</ul>
+			<ul class="slider-nav">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>	
+		<script src="js/slider.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$('#slider').slider({handle: 'click'});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选项卡</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tab.css"/>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="tab-control" id="tab">
+			<ul class="tab-head">
+				<li class="tab-btn active" data-href="tab1">推荐</li>
+				<li class="tab-btn" data-href="tab2">电影</li>
+				<li class="tab-btn" data-href="tab3">电视剧</li>
+				<li class="tab-btn" data-href="tab4">记录</li>
+				<li class="tab-btn" data-href="tab5">新闻</li>
+				<li class="tab-btn" data-href="tab6">K歌</li>
+				<li class="tab-btn" data-href="tab7">游戏</li>
+				<li class="tab-btn" data-href="tab8">定制</li>
+			</ul>
+			<div class="tab-body">
+				<div class="tab-content" data-target="tab1">推荐</div>
+				<div class="tab-content" data-target="tab2">电影</div>
+				<div class="tab-content" data-target="tab3">电视剧</div>
+				<div class="tab-content" data-target="tab4">记录</div>
+				<div class="tab-content" data-target="tab5">新闻</div>
+				<div class="tab-content" data-target="tab6">K歌</div>
+				<div class="tab-content" data-target="tab7">游戏</div>
+				<div class="tab-content" data-target="tab8">定制</div>
+			</div>
+		</div>
+		<script src="js/tab.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$('#tab').tab({type: 'fade'});
+		</script>
+	</body>
+</html>

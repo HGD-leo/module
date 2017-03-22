@@ -1,0 +1,36 @@
+.tab-control{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+}
+.tab-control .tab-head{
+	overflow: hidden;
+	background-image: -webkit-linear-gradient( to top, rgba(122,122,122,0.1) 0%, rgba(122,122,122,0.3) 50%, rgba(122,122,122,0.1) 100%); 
+	background-image: linear-gradient( to top, rgba(122,122,122,0.1) 0%, rgba(122,122,122,0.3) 50%, rgba(122,122,122,0.1) 100%); 
+}
+.tab-control .tab-btn{
+	float: left;
+	padding: 10px 20px;
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-transition: all .15s;
+       -moz-transition: all .15s;
+        -ms-transition: all .15s;
+         -o-transition: all .15s;
+            transition: all .15s;
+}
+.tab-control .tab-btn.active{
+	background-color: #E64E3F;
+	color: #fff;
+}
+.tab-control .tab-body{
+	overflow: hidden;
+}
+.tab-control .tab-content{
+	display: none;
+	padding: 10px;
+	height: 100px;
+	font-size: 14px;
+}			
